@@ -78,7 +78,7 @@ function filtro(filtraDados) {
             break;
 
         default:
-            // VErificação vai cai aqui quando inicia em uma nova guia
+            // Verificação vai cai aqui quando inicia em uma nova guia
             limpaClass();
             item[0].classList.add('active');
             criaElementos(arrayPersonagem1)
@@ -139,7 +139,6 @@ function check(element) {
         theme.classList.add('far', 'fa-moon')
     }
     localStorage.setItem('ativa', !getValue(ativa))
-    // Esse log vai retorna true ou false vai depende da verificacao em cima
 
 }
 // Funcao para transforma string em boliano 
