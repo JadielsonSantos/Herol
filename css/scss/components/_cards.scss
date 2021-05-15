@@ -1,0 +1,14 @@
+
+.card {
+    margin: 10px !important;
+}
+.card-body {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    // Mantendo o tamanho dos cards iguais
+    height: 10em;
+}
+.card-img-top {
+    height: 30rem;
+}

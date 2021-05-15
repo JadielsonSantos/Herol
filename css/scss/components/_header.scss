@@ -1,0 +1,18 @@
+.navbar {
+    box-shadow: 0 0 3px black;
+}
+
+.submit {
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+.submit:hover {
+    background-color: #0d6efd;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);   
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}

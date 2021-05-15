@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Raleway:ital,wght@0,300;0,400;0,500;1,100&display=swap");
+nav .logo {
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+
+nav div ul li a {
+  font-family: 'Raleway', sans-serif;
+}
+
+form .submit {
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-title, .modal-title {
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+}
+
+.modal-descricao {
+  font-family: 'Raleway', sans-serif;
+}
+
+.card {
+  margin: 10px !important;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 10em;
+}
+
+.card-img-top {
+  height: 30rem;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 0 3px black;
+          box-shadow: 0 0 3px black;
+}
+
+.submit {
+  border-color: #0d6efd;
+  color: #0d6efd;
+}
+
+.submit:hover {
+  background-color: #0d6efd;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body.dark-mode {
+  background-color: #121d28;
+}
+
+.dark-mode header {
+  -webkit-box-shadow: 0 1px 4px 0 rgba(255, 255, 255, 0.1);
+          box-shadow: 0 1px 4px 0 rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .logo, .dark-mode
+.nav-link, .dark-mode
+.fa-bars, .dark-mode
+#theme {
+  color: white !important;
+}
+
+.dark-mode section {
+  background-color: #212529 !important;
+}
+
+.dark-mode .navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem white;
+          box-shadow: 0 0 0 0.25rem white;
+}
+
+.dark-mode .navbar-light .navbar-toggler {
+  /* color: rgba(0,0,0,.55); */
+  /* border-color: rgba(0,0,0,.1); */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.paginacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8px;
+}
+/*# sourceMappingURL=style.css.map */
