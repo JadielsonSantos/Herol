@@ -37,7 +37,6 @@ function check(element) {
         theme.classList.add('far', 'fa-moon')
     }
     localStorage.setItem('ativa', !getValue(ativa))
-    // Esse log vai retorna true ou false vai depende da verificacao em cima
 
 }
 // Funcao para transforma string em boliano 
